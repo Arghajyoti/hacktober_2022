@@ -3,13 +3,13 @@
 #include <stdio.h>
 int main ()
 {
-	int num1, num2;
+	int n1, n2;
 	printf ("Enter any two numbers :");
-	scanf ("%d %d", &num1, &num2);
-	if (num1 > num2) {
-		printf ("The minimun number is = %d", num2);
+	scanf ("%d %d", &n1, &n2);
+	if (n1 > n2) {
+		printf ("The minimun number is = %d", n2);
 	} else {
-		printf ("The minimum number is = %d", num1);
+		printf ("The minimum number is = %d", n1);
 	}
 	return 0;
 }
