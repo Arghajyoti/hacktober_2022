@@ -3,12 +3,12 @@
 #include <stdio.h>
 int main ()
 {
-	int a, b, c, max;
+	int n1, n2, n3, max;
 	printf ("Enter the number :");
-	scanf ("%d %d %d", &a, &b, &c);
-	if (a>=0 && a<=100000 && b>=0 && b<=100000 && c>=0 && c<=100000)
+	scanf ("%d %d %d", &n1, &n2, &n3);
+	if (n1>=0 && n1<=100000 && n2>=0 && n2<=100000 && n3>=0 && n3<=100000)
 	{
-		max=((a>b?(a>c?a:c):(b>c?b:c)));
+		max=((n1>n2?(n1>n3?n1:n3):(n2>n3?n2:n3)));
 		printf ("%d", max);
 	}
 	else
