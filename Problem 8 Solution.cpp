@@ -3,14 +3,14 @@
 #include <stdio.h>
 int main ()
 {
-	int c, g, h;
+	int v, g, h;
 	printf ("Enter the gravity, g :");
 	scanf ("%d", &g);
-	printf ("Enter the velocity, c :");
-	scanf ("%d", &c);
-	if (c>=1000 && c<=3000 && g>=1 && g<=10 && (c*c)%g==0)
+	printf ("Enter the velocity, v :");
+	scanf ("%d", &v);
+	if (v>=1000 && v<=3000 && g>=1 && g<=10 && (v*v)%g==0)
 	{
-		h=(c*c)/(2*g);
+		h=(v*v)/(2*g);
 		printf ("%d", h);
 	}
 	else
